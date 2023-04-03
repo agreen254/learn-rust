@@ -72,4 +72,8 @@ fn main() {
     // the value and corresponding type are denoted with ()
     // expressions implicitly return the unit value if they
     // don't return any other value
+
+    // array
+    // unlike a tuple, every element of an array must have the same type
+    let a = [1, 2, 3, 4, 5];
 }
