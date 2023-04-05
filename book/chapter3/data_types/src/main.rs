@@ -51,6 +51,8 @@ fn main() {
     let quot = 103 / 12;
     let quot_trunc = 5 / 3;
     let rem = 43 % 7;
+    let dcm = 92_013;
+    println!("{dcm}");
 
     // booleans
     let t = true;
@@ -76,4 +78,9 @@ fn main() {
     // array
     // unlike a tuple, every element of an array must have the same type
     let a = [1, 2, 3, 4, 5];
+    println!("{}", a[3]);
+    //
+    // can initialize an array to contain the same value for each element
+    let aTwo = [3; 5]; // an array of five 3s
+    println!("{:?}", aTwo);
 }
