@@ -45,7 +45,7 @@ fn main() {
         println!("the value is: {ele}");
     }
 
-    for num in (1..4).rev() {
+    for num in (1..4).rev() { // 3, 2, 1
         println!("{num}!");
     }
     println!("BLASTING OFF AGAIN!!!");
